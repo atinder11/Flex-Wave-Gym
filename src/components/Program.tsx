@@ -35,6 +35,7 @@ function Program() {
                       src={img}
                       alt="program image"
                       className="object-cover h-full w-full transition-transform duration-300 hover:scale-110"
+                      loading="eager"
                     />
                   </figure>
 
