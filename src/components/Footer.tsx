@@ -9,7 +9,7 @@ function Footer() {
     <>
       <div className="bg-mainblack">
         <div className="container mx-auto px-4">
-          <footer className="footer sm:footer-horizontal text-white   ">
+          <footer className="footer sm:footer-horizontal text-white">
             <aside>
               <p className="mt-2">
                 <button className="btn">Flex wave </button>
@@ -24,7 +24,10 @@ function Footer() {
                 <div><Link href="./"> <IoIosMail  className="text-2xl"/> </Link></div>
               </div>
             </aside>
-            <nav className="mt-2">
+            <div>
+              
+            </div>
+            <nav className="md:mt-2">
               <h6 className="footer-title">Company</h6>
               <Link href="./" className="link link-hover">
                 About us

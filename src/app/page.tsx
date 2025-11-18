@@ -3,6 +3,7 @@ import Features from "@/components/Features";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Program from "@/components/Program";
+import Training from "@/components/Training";
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
     <Navbar/>
     <Program/>
     <Features/>
+    <Training/>
     <Cta/>
     <Footer/>
     </>
