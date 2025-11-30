@@ -44,7 +44,7 @@ function Pricing() {
                 </li>
               ))}
             </ul>
-            <Link href="/join">
+            <Link href="/contact">
             <button className="btn btn-neutral btn-block mt-6  p-2" >Subscribe</button>
             </Link>
 
@@ -94,7 +94,7 @@ function Pricing() {
                 </li>
               ))}
             </ul>
-            <Link href="/join">
+            <Link href="/contact">
             <button className="btn btn-outline btn-block mt-6  p-2">Subscribe</button>
             </Link>
 
@@ -140,7 +140,7 @@ function Pricing() {
                 </li>
               ))}
             </ul>
-            <Link href="/join">
+            <Link href="/contact">
              <button className="btn btn-neutral btn-block mt-6  p-2 ">Subscribe</button>
             </Link>
 

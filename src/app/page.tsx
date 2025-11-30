@@ -1,3 +1,4 @@
+import AboutUs from "@/components/AboutUs";
 import Cta from "@/components/Cta";
 import Features from "@/components/Features";
 import Footer from "@/components/Footer";
@@ -11,6 +12,7 @@ export default function Home() {
   return (
     <>
     <Navbar/>
+    <AboutUs/>
     <Program/>
     <Features/>
     <Training/>

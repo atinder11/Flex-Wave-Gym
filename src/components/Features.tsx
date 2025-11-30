@@ -9,15 +9,15 @@ function Features() {
       <div className="bg-mainblack ">
         <div className="container mx-auto px-4 ">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ">
-            <div>
-              <h2 className="text-2xl text-center text-white md:text-left dark:text-white font-bold">
+            <div className="">
+              <h2 className="text-2xl text-center text-white md:text-left dark:text-white font-bold mt-2">
                 Best Features
                 <br />
                 we offer for you
               </h2>
             </div>
             <div>
-              <p className="text-xl text-center md:text-left text-[#9596a1] text-pretty font-semibold">
+              <p className="text-xl text-center md:text-left text-[#9596a1] text-pretty font-semibold mt-2">
                 crafted with care and with your needs in mind,
                 these features are designed to provide a better and more satisfying 
                 experience for our users.
@@ -26,9 +26,9 @@ function Features() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-auto mt-2 p-8   ">
-            <div className="bg-[#192231] rounded-2xl p-4  text-white">
-              <div>
-              <SlCalender className="text-3xl"/>
+            <div className="bg-[#192231] rounded-2xl p-4  text-white hover:shadow-xl hover:scale-[1.03] transition-all duration-300 ease-out">
+              <div className="">
+              <SlCalender className="text-3xl mt-1"/>
               <br/>
               <h2 className="font-bold text-2xl">Tracking</h2>
               <br/>
@@ -36,8 +36,8 @@ function Features() {
                 </p>
                 </div>
             </div>
-             <div className="bg-[#192231] rounded-3xl p-2  text-white">
-              <div><IoPhonePortraitOutline className="text-3xl" />
+             <div className="bg-[#192231] rounded-3xl p-2  text-white hover:shadow-xl hover:scale-[1.03] transition-all duration-300 ease-out">
+              <div><IoPhonePortraitOutline className="text-4xl mt-2" />
               <br/>
               <h2 className="font-bold text-2xl">Insight</h2>
               <br/>
@@ -45,9 +45,9 @@ function Features() {
                 </p>
                 </div>
             </div>
-             <div className="bg-[#192231] rounded-2xl p-2  text-white">
+             <div className="bg-[#192231] rounded-2xl p-2  text-white hover:shadow-xl hover:scale-[1.03] transition-all duration-300 ease-out">
               
-              <div><BiStopwatch className="text-3xl" />
+              <div><BiStopwatch className="text-5xl mt-2" />
               <br/>
               <h2 className="font-bold text-2xl">Real Time</h2>
               <br/>
