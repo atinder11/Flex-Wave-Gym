@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function Cta() {
   return (
@@ -19,9 +20,12 @@ function Cta() {
               fitness goals.
             </p>
             <br />
+            <Link href="/plan">
+           
             <button className="btn btn-outline rounded-2xl bg-white text-mainblue text-xl">
               Start Now
             </button>
+             </Link>
           </div>
         </div>
       </div>

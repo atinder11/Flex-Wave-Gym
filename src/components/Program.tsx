@@ -4,6 +4,7 @@ import Img1 from "../assets/program1.jpg";
 import Img2 from "../assets/program2.jpg";
 import Img3 from "../assets/program3.jpg";
 import Img4 from "../assets/program4.jpg";
+import Link from "next/link";
 
 function Program() {
   return (
@@ -48,7 +49,10 @@ function Program() {
                     </h2>
 
                     <div className="card-actions justify-end">
+                      <Link href="/contact">
+                    
                       <button className="btn btn-outline">Explore</button>
+                        </Link>
                     </div>
                   </div>
                 </div>
