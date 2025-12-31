@@ -3,10 +3,10 @@ import Link from "next/link";
 
 function Pricing() {
   return (
-    <div className="conatiner mx-auto px-4">
-      <h2 className="text-center font-bold text-4xl md:text-5xl mb-8">Plans</h2>
+    <div className="conatiner mx-auto px-4 max-w-7xl">
+      <h2 className="text-center font-bold text-4xl md:text-5xl mb-8 mt-2">Plans</h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center p-2 md:p-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center p-2 md:p-8">
         {/* Monthly */}
         <div className="card bg-base-200 shadow-sm w-full max-w-sm h-full flex flex-col justify-between transition  ease-in-out hover:scale-110" >
           <div className="card-body flex flex-col flex-grow">
